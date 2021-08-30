@@ -2,6 +2,7 @@
   "name": "secundaria5",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://kev99.github.io/secundaria5",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
