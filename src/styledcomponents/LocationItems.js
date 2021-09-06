@@ -21,16 +21,13 @@ export const InfoMaps = styled.div`
     align-items: center;
     line-height: 35px;
     padding: 30px;
-
-    /* border: 2px solid #ff9900; */
-
-    h4{
-            text-decoration: underline;
-            font-size: 24px;
-    }
-    p{
-            margin-bottom: 20px;
-            font-size: 18px;
-    }
+        h4{
+                text-decoration: underline;
+                font-size: 24px;
+        }
+        p{
+                margin-bottom: 20px;
+                font-size: 18px;
+        }
     
 `;
