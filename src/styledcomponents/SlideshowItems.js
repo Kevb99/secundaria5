@@ -78,7 +78,7 @@ const ShowAllBtn = styled.div`
 	max-width: 100%;
 	margin-top: 20px;
 	button{
-		z-index: 2;
+		z-index: 10;
 		background: #ff9900;
 		padding: 20px 50px;
 		color: #000;
