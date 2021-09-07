@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useCallback } from 'react';
-import { ContenedorPrincipal, ContenedorSlideshow, Controles, Boton } from '../styledcomponents/SlideshowItems';
+import { ContenedorPrincipal, ContenedorSlideshow, Controles, Boton, ShowAllBtn } from '../styledcomponents/SlideshowItems';
 import { ReactComponent as FlechaIzquierda } from '../images/iconmonstr-angel-left-thin.svg';
 import { ReactComponent as FlechaDerecha } from '../images/iconmonstr-angel-right-thin.svg';
 
@@ -7,7 +7,7 @@ const Slideshow = ({
 	children,
 	controles = false,
 	autoplay = false,
-	velocidad = "1200",
+	velocidad = "2000",
 	intervalo = "5000"
 }) => {
 	const slideshow = useRef(null);
@@ -20,7 +20,7 @@ const Slideshow = ({
 			const primerElemento = slideshow.current.children[0];
 
 
-			slideshow.current.style.transition = `${velocidad}ms ease-out all`;
+			slideshow.current.style.transition = `${velocidad}ms ease-in-out all`;
 
 			const tamañoSlide = slideshow.current.children[0].offsetWidth;
 
@@ -56,7 +56,7 @@ const Slideshow = ({
 			slideshow.current.style.transform = `translateX(-${tamañoSlide}px)`;
 
 			setTimeout(() => {
-				slideshow.current.style.transition = `${velocidad}ms ease-out all`;
+				slideshow.current.style.transition = `${velocidad}ms ease-in-out all`;
 				slideshow.current.style.transform = `translateX(0)`;
 			}, 30);
 		}
@@ -94,7 +94,9 @@ const Slideshow = ({
 					</Boton>
 				</Controles>}
 			</ContenedorPrincipal>
-			<button>Ver Todas</button>		
+			<ShowAllBtn>
+				<button onClick={{}}>Ver Todas</button>
+			</ShowAllBtn>	
 		</>
 
 	);

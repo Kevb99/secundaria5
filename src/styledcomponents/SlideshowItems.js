@@ -8,6 +8,7 @@ const Main = styled.main`
 
 const ContenedorPrincipal = styled.div`
 	position: relative;
+	height: 829px;
 `;
 
 const ContenedorSlideshow = styled.div`
@@ -71,6 +72,22 @@ const Boton = styled.button`
 	${props => props.derecho ? 'right: 0' : 'left: 0'}
 `;
 
+const ShowAllBtn = styled.div`
+	display: flex;
+	justify-content: center;
+	max-width: 100%;
+	button{
+		background: #914646;
+		padding: 20px;
+		color: #000;
+		font-weight: bold;
+		font-size: 18px;
+		border: none;
+		cursor: pointer;
+
+	}
+`;
+
 const Titulo = styled.p`
 	font-size: 18px;
 	font-weight: 700;
@@ -78,4 +95,4 @@ const Titulo = styled.p`
 	margin-bottom: 10px;
 `;
 
-export {Titulo, Boton, Controles, TextoSlide, Slide, ContenedorSlideshow, ContenedorPrincipal, Main };
+export { Titulo, Boton, Controles, TextoSlide, Slide, ContenedorSlideshow, ContenedorPrincipal, Main, ShowAllBtn };
