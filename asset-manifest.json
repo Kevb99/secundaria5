@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/secundaria5/static/css/main.f10ddcdd.chunk.css",
-    "main.js": "/secundaria5/static/js/main.1a3c08f5.chunk.js",
-    "main.js.map": "/secundaria5/static/js/main.1a3c08f5.chunk.js.map",
+    "main.js": "/secundaria5/static/js/main.c5579f2a.chunk.js",
+    "main.js.map": "/secundaria5/static/js/main.c5579f2a.chunk.js.map",
     "runtime-main.js": "/secundaria5/static/js/runtime-main.837ce661.js",
     "runtime-main.js.map": "/secundaria5/static/js/runtime-main.837ce661.js.map",
     "static/js/2.af278671.chunk.js": "/secundaria5/static/js/2.af278671.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.837ce661.js",
     "static/js/2.af278671.chunk.js",
     "static/css/main.f10ddcdd.chunk.css",
-    "static/js/main.1a3c08f5.chunk.js"
+    "static/js/main.c5579f2a.chunk.js"
   ]
 }
