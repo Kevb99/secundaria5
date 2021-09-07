@@ -45,7 +45,6 @@ const Slideshow = ({
 	}, [velocidad]);
 
 	const anterior = () => {
-		console.log('Anterior');
 		if (slideshow.current.children.length > 0) {
 			const index = slideshow.current.children.length - 1;
 			const ultimoElemento = slideshow.current.children[index];
@@ -95,7 +94,7 @@ const Slideshow = ({
 				</Controles>}
 			</ContenedorPrincipal>
 			<ShowAllBtn>
-				<button onClick={{}}>Ver Todas</button>
+				<button onClick={anterior}>Ver Todas</button>
 			</ShowAllBtn>	
 		</>
 

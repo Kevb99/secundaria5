@@ -76,15 +76,20 @@ const ShowAllBtn = styled.div`
 	display: flex;
 	justify-content: center;
 	max-width: 100%;
+	margin-top: 20px;
 	button{
-		background: #914646;
-		padding: 20px;
+		z-index: 2;
+		background: #ff9900;
+		padding: 20px 50px;
 		color: #000;
 		font-weight: bold;
-		font-size: 18px;
-		border: none;
+		font-size: 24px;
+		border: 1px solid #000;
 		cursor: pointer;
-
+		&:active{
+			background: #d3891a;
+			scale: .95;
+		}
 	}
 `;
 
