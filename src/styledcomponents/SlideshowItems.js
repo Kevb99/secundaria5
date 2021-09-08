@@ -8,7 +8,7 @@ const Main = styled.main`
 
 const ContenedorPrincipal = styled.div`
 	position: relative;
-	height: 829px;
+	height: 750px;
 `;
 
 const ContenedorSlideshow = styled.div`
@@ -76,7 +76,7 @@ const ShowAllBtn = styled.div`
 	display: flex;
 	justify-content: center;
 	max-width: 100%;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	button{
 		z-index: 10;
 		background: #ff9900;
