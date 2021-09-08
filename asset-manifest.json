@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/secundaria5/static/css/main.f10ddcdd.chunk.css",
+    "main.css": "/secundaria5/static/css/main.8cb02100.chunk.css",
     "main.js": "/secundaria5/static/js/main.f75ea019.chunk.js",
     "main.js.map": "/secundaria5/static/js/main.f75ea019.chunk.js.map",
     "runtime-main.js": "/secundaria5/static/js/runtime-main.837ce661.js",
@@ -8,7 +8,7 @@
     "static/js/2.af278671.chunk.js": "/secundaria5/static/js/2.af278671.chunk.js",
     "static/js/2.af278671.chunk.js.map": "/secundaria5/static/js/2.af278671.chunk.js.map",
     "index.html": "/secundaria5/index.html",
-    "static/css/main.f10ddcdd.chunk.css.map": "/secundaria5/static/css/main.f10ddcdd.chunk.css.map",
+    "static/css/main.8cb02100.chunk.css.map": "/secundaria5/static/css/main.8cb02100.chunk.css.map",
     "static/js/2.af278671.chunk.js.LICENSE.txt": "/secundaria5/static/js/2.af278671.chunk.js.LICENSE.txt",
     "static/media/4k1.79f044d7.jpg": "/secundaria5/static/media/4k1.79f044d7.jpg",
     "static/media/4k2.d992c256.jpg": "/secundaria5/static/media/4k2.d992c256.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.837ce661.js",
     "static/js/2.af278671.chunk.js",
-    "static/css/main.f10ddcdd.chunk.css",
+    "static/css/main.8cb02100.chunk.css",
     "static/js/main.f75ea019.chunk.js"
   ]
 }
