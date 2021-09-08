@@ -11,10 +11,14 @@ export const Anchor = styled.a`
 `;
 
 export const Nav = styled.nav`
-    z-index: 99;
+    z-index: 11;
     background: #000;
     padding: 20px;
     text-align: center;
     position: sticky;
     top: 0;
+    width: 100%;
+    @media(max-width:430px){
+        display:none;
+    }
 `;

@@ -8,11 +8,8 @@
   font-family: Montserrat;
 }
 
-html, body {
-  min-height: 100%;
-}
-
 body {
+  width: 100%;
   background: #ff5f6d; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
