@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 const Main = styled.main`
-    max-width: 80%;
+    max-width: 70%;
 	margin: 50px auto;
 	overflow: hidden;
 `;
 
 const ContenedorPrincipal = styled.div`
 	position: relative;
-	height: 750px;
 `;
 
 const ContenedorSlideshow = styled.div`
@@ -22,6 +21,7 @@ const Slide = styled.div`
 	transition: .3s ease all;
 	z-index: 10;
 	position: relative;
+	height: 70%;
 
 	img {
 		width: 100%;
@@ -49,7 +49,7 @@ const Controles = styled.div`
 	top: 0;
 	z-index: 20;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 	pointer-events: none;
 `;
 
@@ -76,8 +76,10 @@ const ShowAllBtn = styled.div`
 	display: flex;
 	justify-content: center;
 	max-width: 100%;
-	/* margin-top: 20px; */
+	margin-top: 20px;
 	button{
+		height: 100px;
+		width: 250px;
 		z-index: 10;
 		background: #ff9900;
 		padding: 20px 50px;
@@ -90,6 +92,7 @@ const ShowAllBtn = styled.div`
 			background: #d3891a;
 			scale: .95;
 		}
+		/* @media (max-width: ) */
 	}
 `;
 
@@ -100,4 +103,4 @@ const Titulo = styled.p`
 	margin-bottom: 10px;
 `;
 
-export { Titulo, Boton, Controles, TextoSlide, Slide, ContenedorSlideshow, ContenedorPrincipal, Main, ShowAllBtn };
+export { Titulo, Boton, Controles, TextoSlide, Slide, ContenedorSlideshow, ContenedorPrincipal, Main, ShowAllBtn, };

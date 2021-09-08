@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useCallback } from 'react';
-import { ContenedorPrincipal, ContenedorSlideshow, Controles, Boton, ShowAllBtn } from '../styledcomponents/SlideshowItems';
+import { ContenedorPrincipal, ContenedorSlideshow, Controles, Boton } from '../styledcomponents/SlideshowItems';
 import { ReactComponent as FlechaIzquierda } from '../images/iconmonstr-angel-left-thin.svg';
 import { ReactComponent as FlechaDerecha } from '../images/iconmonstr-angel-right-thin.svg';
 
@@ -93,9 +93,6 @@ const Slideshow = ({
 					</Boton>
 				</Controles>}
 			</ContenedorPrincipal>
-			<ShowAllBtn>
-				<button onClick={anterior}>Ver Todas</button>
-			</ShowAllBtn>	
 		</>
 
 	);

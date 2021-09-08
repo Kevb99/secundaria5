@@ -9,11 +9,10 @@ export const Background = styled.article`
     background: url(${bg});
     background-size: cover;
     background-position: center;
-    height: 950px;
 `;
 
 export const SecondaryText = styled.h3`
-    font-size: 25px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
     margin-top: 20px;
@@ -21,22 +20,28 @@ export const SecondaryText = styled.h3`
 `;
 
 export const News = styled.div`
-    height: 700px;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-        div{
-            width: 80%;
-        }
-            div>img{
-                height:100%;
-                width: 100%;
+    margin: 10px 20px;
+`;
+
+export const Image = styled.div`
+    width: 80%;
+    display:flex;
+    text-align: center;
+    align-items: center;
+        img{
+            align-self: center;
+            width: 100%;
             }
+        
 `;
 
 export const Title = styled.h1`
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     color: #000;
     padding: 20px;
     text-decoration: underline;
@@ -50,6 +55,10 @@ export const Title = styled.h1`
         color: #fff;
         font-size: 24px;
         text-decoration: none;`}     
+
+    @media(max-width: 850px){
+        font-size: 25px;
+    }    
     
 `;
 
@@ -60,5 +69,16 @@ export const NewsContainer = styled.div`
 `;
 
 export const Info = styled.div`
+    width:50%;
     background: rgba(255 ,255, 255, .8);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h2{
+        margin: 10px 0;
+    }
+    p {
+        margin-top: 10px;
+        font-weight: 600;
+    }
 `;

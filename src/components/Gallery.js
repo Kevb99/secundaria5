@@ -1,6 +1,6 @@
 import React from 'react';
 import Slideshow from './Slideshow';
-import { Main, Slide, TextoSlide } from '../styledcomponents/SlideshowItems';
+import { Main, ShowAllBtn, Slide, TextoSlide } from '../styledcomponents/SlideshowItems';
 import { Title } from '../styledcomponents/News'; 
 import ex4k1 from '../images/4k1.jpg';
 import ex4k2 from '../images/4k2.jpg';
@@ -45,6 +45,9 @@ const Gallery = () => {
 					</TextoSlide>
 				</Slide>
 			</Slideshow>
+			<ShowAllBtn>
+				<button onClick={{}}>Ver Todas</button>
+			</ShowAllBtn>	
 		</Main>
 	);
 }
