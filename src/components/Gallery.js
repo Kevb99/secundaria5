@@ -46,7 +46,7 @@ const Gallery = () => {
 				</Slide>
 			</Slideshow>
 			<ShowAllBtn>
-				<button onClick={{}}>Ver Todas</button>
+				<button onClick={{}}>Ver Todas <br /> <bold style={{fontSize: "10px"}}>En desarrollo...</bold></button>
 			</ShowAllBtn>	
 		</Main>
 	);
