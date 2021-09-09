@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Maps = styled.iframe`
     width: 50%;
-    height: 500px;
     margin-bottom: 0;
     border: none;
 `;

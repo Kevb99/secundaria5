@@ -16,7 +16,6 @@ const Location = () => {
                     <p>011 4226-3451</p>
                     <h4>Horarios</h4>
                     <p>Lunes a Viernes 8:00am - 9:00pm</p>
-                    <p>Sabados y Domingos 11:00am - 11:00pm</p>
                 </InfoMaps>            
             </InfoContainer>
 
