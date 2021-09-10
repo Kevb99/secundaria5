@@ -90,7 +90,7 @@ const ShowAllBtn = styled.div`
 		cursor: pointer;
 		&:active{
 			background: #d3891a;
-			scale: .95;
+			transform: scale(.95);
 		}
 		/* @media (max-width: ) */
 	}
